@@ -45,14 +45,29 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1,h2,h3 {
-    font-family: karla;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
 }
-/* STEP 2 â–¸ sizes in rem, room between the lines */
+h1 {
+    font-size: 3rem;
+}
 
+/* STEP 2 â–¸ sizes in rem, room between the lines */
+h2 {
+    font-size: 2 rem;
+}
+
+p {
+    line-height: 1.5;
+}
 
 /* STEP 3 â–¸ small uppercase labels: .eyebrow and nav a */
-
+.eyebrow, nav a {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
 /* CHECK â–¸ every paragraph easy to read from your seat? */
 
 /* DONE EARLY â–¸ the Extra slide: text-shadow, link underlines */
